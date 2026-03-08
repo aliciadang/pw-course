@@ -1,0 +1,8 @@
+A. Working directory
+file1, file2, file3
+
+B. Staging area
+
+
+C. Repository
+file1

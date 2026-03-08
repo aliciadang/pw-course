@@ -1,0 +1,7 @@
+1. giải thích các câu lệnh: git init, git add <file_name>, git add ., git
+commit -m “message”
+
+- git init : biến thư mục thành một repo => git sẽ theo dõi mọi sự thay đổi trong đó
+- git add <file_name> : đưa file <file_name> đã được modified vào vùng staging
+- git add . : đưa toàn bộ file đã modified vào vùng staging
+- git commit -m "message" : tạo nội dung ngắn tóm tắt những thay đổi đã thực hiện sau khi đưa lên staging
