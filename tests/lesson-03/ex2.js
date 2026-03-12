@@ -9,10 +9,14 @@ Cân nặng tối thiểu là: 70 x 8 :10 = 56 kg
 Phạm vi áp dụng: Công thức áp dụng cho 100 < chiều cao < 200
  */
 
-const chieuCao = 154;
+const chieuCao = 201;
 const canNangLyTuong = ((chieuCao - 100) * 9 / 10);
 const canNangToiDa = (chieuCao - 100);
 const canNangToiThieu = ((chieuCao - 100) * 8 / 10);
 
-console.log("Cân nặng lý tưởng: ", canNangLyTuong, "kg. Cân nặng tối đa: ", canNangToiDa, "kg. Cân nặng tối thiểu: ", canNangToiThieu, "kg");
+if(100 < chieuCao && chieuCao < 200) {
+    console.log("Cân nặng lý tưởng: ", canNangLyTuong, "kg. Cân nặng tối đa: ", canNangToiDa, "kg. Cân nặng tối thiểu: ", canNangToiThieu, "kg");
+} else {
+    console.log("Chiều cao không hợp lệ. Vui lòng nhập chiều cao trong khoảng 100cm đến 200cm");
+}
 

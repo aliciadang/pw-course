@@ -3,7 +3,7 @@
 ### 1. Undo latest commit message
 
 ```
-git commit -amend -m "new commit message"
+git commit --amend -m "new commit message"
 ```
 
 - rebase: will learn later
